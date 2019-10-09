@@ -26,9 +26,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                              KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_DEL,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO,   KC_NO,   KC_NO,   KC_MS_U,  KC_NO,   KC_NO,                              KC_NO,   KC_NO,   KC_NO,   KC_ENT,   KC_MINS, KC_EQL,
+     KC_NO,   KC_BTN1, KC_MS_U, KC_BTN2, KC_NO,   KC_NO,                              KC_NO,   KC_NO,   KC_NO,   KC_ENT,   KC_MINS, KC_EQL,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_CAPS, KC_NO,   KC_MS_L, KC_MS_D, KC_MS_R,   KC_NO,                              KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_GRV,  KC_BSLS,
+     KC_CAPS, KC_MS_L, KC_MS_D, KC_MS_R, KC_NO,   KC_NO,                              KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_GRV,  KC_BSLS,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_NO,   KC_NO,   KC_NO,   KC_HOME, KC_END,  KC_NO,   KC_NO,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘         \       ┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
